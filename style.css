@@ -1,0 +1,76 @@
+.body {
+    background-color: rgb(255, 236, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: rgb(122, 7, 70);
+    text-wrap: 600px;}
+
+.title {
+    color: rgb(122, 7, 70);
+    text-align: center;
+    text-decoration:underline dotted;
+}
+
+/* THIS IS THE CONTAINER FOR THE IMAGE AND THE CAPTION */    
+.flex-me {
+    display: flex;
+    background-color:rgb(122, 7, 70);     
+    border:3px solid rgb(122, 7, 70);
+}
+
+/* STYLES FOR THE CAPTION */
+.caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+    font-style:italic;
+    color: #f9d974;
+    border:3px solid rgb(122, 7, 70);
+    margin: auto;                              /* THIS CENTERS THE TEXT HORIZONTALLY & VERTICALLY  */ 
+    padding: 20px; 
+    text-align: center;  
+}
+
+/* STYLES FOR THE BAKING TIME AND PREP TIME AREA */
+.details {
+    display: flex;  
+    flex-direction: row;         
+    padding: 5px 15px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:smaller;
+    font-weight: 600;   
+    justify-content: center; 
+    border-bottom: solid rgb(122, 7, 70) 1px;
+}
+       
+/* STYLES FOR THE TEXT IN THE TOTAL TIME AREA */
+.details > div {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+/* STYLES FOR THE DIRECTIONS - THIS MAKES THE BULLETS/NUMBERS BOLD */
+.directions {  
+    line-height: 1.6;   
+    font-weight: bolder;  
+}
+
+/* STYLE FOR THE DIRECTIONS - THIS MAKES THE BULLET TEXT NORMAL */
+
+.directions > li {
+    font-weight:normal;
+}
+
+/*  STYLE FOR THE NUTRITION SECTION - THIS REMOVES ALL BULLETS FROM THE LIST */
+.nobullets {
+    list-style-type: none;
+}
+
+/* THIS IS THE CONTAINER FOR THE FOOTER IMAGES*/    
+.flex-me-too {
+    display: flex;
+    background-color:rgb(122, 7, 70);     
+    border:3px solid rgb(122, 7, 70);
+    justify-content: space-between;
+}
+
+
